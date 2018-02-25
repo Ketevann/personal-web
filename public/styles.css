@@ -2,6 +2,12 @@ body {
      font-family: avenir-light !important;
 }
 
+@-moz-document url-prefix(){
+    body, #navbar-header, #navbar-subheader {
+     font-family: avenir !important;
+    }
+}
+
 .carousel {
     position: relative;
     width: 749px;
