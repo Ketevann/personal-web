@@ -67,9 +67,11 @@ const Slideshow = (props) => {
 
     <div className="slideshow">
       <Carousel className="carousel ">
-        {images.img.map(elem => {
+        {images.img.map((elem, i) => {
           return (
-            <Carousel.Item >
+            <Carousel.Item
+            key={i}
+            >
               <img className="slide-img" src={elem.image} />
             </Carousel.Item>)
         })}

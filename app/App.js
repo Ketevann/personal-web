@@ -26,10 +26,6 @@ class App extends React.Component {
       <Skills />
       <Work />
       <Footer/>
-
-
-
-
       </div>
     )
   }

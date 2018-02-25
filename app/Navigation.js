@@ -17,11 +17,8 @@ export default class Navigation extends Component {
   setNavExpanded(){
     this.setState({ collapsed: !this.state.collapsed})
 
-    // this.setState({ collapsed: !this.state.collapsed})
-     //console.log(this.state.collapsed)
   }
   render() {
-    console.log('toggled', this.state)
     {this.state.collapsed ?
     divStyle.display = 'none'
      : null

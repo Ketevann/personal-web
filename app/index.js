@@ -11,7 +11,7 @@ const path = require('path');
 // });
 
 app.listen(process.env.PORT || 3000, () =>{
-  console.log('listenint on 3000')
+  console.log('listening on 3000')
 })
 
 app.use('/', express.static(path.join(__dirname, '../public')))
