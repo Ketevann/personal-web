@@ -10,7 +10,7 @@ const path = require('path');
 //   res.send('hello');
 // });
 
-app.listen(3000, () =>{
+app.listen(process.env.PORT || 3000, () =>{
   console.log('listenint on 3000')
 })
 
