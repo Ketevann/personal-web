@@ -4,8 +4,6 @@
 /* Import statements */
 import React, { Component } from 'react';
 import { Link, Route, Switch } from 'react-router-dom';
-import Home from './Home'
-import Category from './Category'
 import  Slideshow from './Slideshow'
 import  Navigation  from './Navigation'
 import { About } from './About';

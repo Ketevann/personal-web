@@ -11,14 +11,14 @@ export const About = () => {
   return (
     <div className="about-wrapper">
     <div id="about-flex-col">
-    <div className="title-header">About
+    <div id="about" className="title-header">About
     <hr className="title-line" />
     </div>
       <div className="about-text">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        I am an NYC based full stack developer with a background in neuroscience and psychology. I love coding because although it is challenging, it pushes me to be constantly learning. In my work, I aim to have both great aesthetic as well as functionality and I create user experiences that are intuitive and enjoyable. I am available for freelance projects. Contact me at ketevan.tsin@gmail.com
      </div>
      </div>
-      <img id="profile" src="" alt="Profile" />
+
 
     </div>
   )

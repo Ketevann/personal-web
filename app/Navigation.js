@@ -27,20 +27,20 @@ export default class Navigation extends Component {
      : null
 }
     return (<Navbar onToggle={this.setNavExpanded}>
-      <img id="nav-img" src={require('../img/group@3x.png')} alt="" />
+      <img id="nav-img" src={require('../public/img/group@3x.png')} alt="" />
       <Navbar.Header>
         <Navbar.Brand>
 
           <div style={{display: this.state.collapsed ? 'none' : 'block'} } className="nav-header-wrapper">
             <div  id="navbar-header">KETEVAN BARATELI</div>
-            <div stye={{divStyle}} id="navbar-subheader">Full stack developer</div>
+            <div id="navbar-subheader">Full stack developer</div>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle />
 
       </Navbar.Header>
-      <Navbar.Collapse>
-        <Nav pullRight>
+      <Navbar.Collapse style={{display: this.state.collapsed ? 'block' : 'none'} }>
+        <Nav pullRight >
           <NavItem className="nav-item" eventKey={1} href="#work">
             <div className="nav-item">Work</div>
           </NavItem>

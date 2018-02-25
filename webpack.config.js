@@ -3,7 +3,7 @@ module.exports = {
   entry: './app/main.js',
   output: {
     path: __dirname,
-    filename: './app/public/bundle.js'
+    filename: './public/bundle.js'
   },
   watch: true,
    resolve: {
@@ -18,7 +18,6 @@ module.exports = {
       { test: /\.ts$/, use: 'ts-loader' },
       { test: /\.js$/, use: 'babel-loader', exclude: /node_modules/ },
       { test: /\.jsx$/, use: 'babel-loader', exclude: /node_modules/ },
-      { test: /\.css$/, use: 'style-loader!css-loader' },
       { test: /\.(png|jp(e*)g|svg)$/, use: 'url-loader' },
       { test: /\.(ttf|eot|svg)$/, use: 'file-loader' }
     ]

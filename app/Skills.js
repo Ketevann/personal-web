@@ -15,9 +15,10 @@ export const Skills = () => {
         Skills
     <hr className="title-line" />
         </div>
+
         <div className="list-of-skills">
-        <ul>
-        <li className="list-name-header">Front End</li>
+
+       <ul id="skill-one" front-label="Front End">
           <li>Javascript</li>
           <li>HTML</li>
           <li>CSS</li>
@@ -27,16 +28,16 @@ export const Skills = () => {
           <li>JQuery</li>
           <li>Axios</li>
         </ul>
-        <ul>
-         <li className="list-name-header">Back End</li>
+
+        <ul id="skill-two" back-label="Back End">
           <li>Node.js</li>
           <li>Express.js</li>
           <li>SQL/PostreSQL</li>
           <li>Sequelize</li>
           <li>Firebase</li>
         </ul>
-        <ul>
-         <li className="list-name-header">Tools</li>
+
+        <ul id="skill-three" tool-label="Tools">
           <li>Git + Github</li>
           <li>Command Line</li>
           <li>Chrome Devtools</li>
