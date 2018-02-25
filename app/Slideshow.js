@@ -5,7 +5,6 @@
 import React, { Component } from 'react';
 import { Link, Route, Switch } from 'react-router-dom';
 import { Carousel, Item, Caption } from 'react-bootstrap'
-import { Fade } from 'react-slideshow-image';
 
 
 const allImages = {
