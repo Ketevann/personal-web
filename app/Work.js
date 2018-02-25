@@ -38,7 +38,7 @@ export const Work = () => {
       <div className="wrapper-flex-row">
         <div className="work-felx-col">
           <div id="work-title">Mercury</div>
-          <div id="work-text">Personal budget web app that allows users to add budget for categories such as food and entertainment. Users can link their bank account and compare their monthly spending by category to their over budget. Updates are emailed of whether or not the user met the overall budget goal.
+          <div id="work-text">Personal budget web app that allows users to add budget for categories such as food and entertainment. Users can link their bank account and compare their monthly spending by category to their overall budget. Updates are emailed of whether or not the user met the overall budget goal.
           </div>
           <div id="work-text">Used Node, PostgreSQL, React-Redux, Auth, Passport, Express, Sequelize, Axios, Plaid API, Recharts, Chai
           </div>
