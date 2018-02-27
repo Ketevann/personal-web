@@ -34,7 +34,6 @@ export default class Navigation extends Component {
           </div>
         </Navbar.Brand>
         <Navbar.Toggle />
-
       </Navbar.Header>
       <Navbar.Collapse style={{display: this.state.collapsed ? 'block' : 'none'} }>
         <Nav pullRight >
@@ -44,7 +43,6 @@ export default class Navigation extends Component {
           <NavItem className="nav-item" eventKey={3} href="#icons">
             <div className="nav-item">Contact</div>
           </NavItem>
-
         </Nav>
       </Navbar.Collapse>
     </Navbar>)

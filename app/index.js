@@ -4,6 +4,8 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const app = express();
 const path = require('path');
+const http = require("http");
+
 
  app.use(bodyParser.json())
 // app.get('/', (req, res) =>{
@@ -15,3 +17,8 @@ app.listen(process.env.PORT || 3000, () =>{
 })
 
 app.use('/', express.static(path.join(__dirname, '../public')))
+
+
+setInterval(function() {
+    http.get("http://www.kbarateli.com.herokudns.com");
+}, 300000);
