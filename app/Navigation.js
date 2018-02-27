@@ -41,9 +41,6 @@ export default class Navigation extends Component {
           <NavItem className="nav-item" eventKey={1} href="#work">
             <div className="nav-item">Work</div>
           </NavItem>
-          <NavItem className="nav-item" eventKey={2} href="#about">
-            <div className="nav-item">About</div>
-          </NavItem>
           <NavItem className="nav-item" eventKey={3} href="#icons">
             <div className="nav-item">Contact</div>
           </NavItem>
