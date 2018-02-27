@@ -13,7 +13,6 @@ export default class Navigation extends Component {
     this.setNavExpanded = this.setNavExpanded.bind(this)
   }
 
-
   setNavExpanded(){
     this.setState({ collapsed: !this.state.collapsed})
 
@@ -27,7 +26,6 @@ export default class Navigation extends Component {
       <img id="nav-img" src={require('../public/img/group@3x.png')} alt="" />
       <Navbar.Header>
         <Navbar.Brand>
-
           <div style={{display: this.state.collapsed ? 'none' : 'block'} } className="nav-header-wrapper">
             <div  id="navbar-header">KETEVAN BARATELI</div>
             <div id="navbar-subheader">Full stack developer</div>
