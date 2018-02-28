@@ -632,3 +632,8 @@ img.slide-img {
     width: 100%;
     padding: 47px;
 }
+
+.container {
+    background-image: url('./img/group-resize.png');
+     background-size: cover;
+}

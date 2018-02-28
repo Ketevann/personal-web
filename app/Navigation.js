@@ -22,8 +22,7 @@ export default class Navigation extends Component {
     divStyle.display = 'none'
      : null
 }
-    return (<Navbar onToggle={this.setNavExpanded}>
-      <img id="nav-img" src={require('../public/img/group@3x.png')} alt="" />
+    return (<Navbar onToggle={this.setNavExpanded} className="nav-bar-img">
       <Navbar.Header>
         <Navbar.Brand>
           <div style={{display: this.state.collapsed ? 'none' : 'block'} } className="nav-header-wrapper">
