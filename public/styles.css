@@ -576,10 +576,10 @@ div#footer-name {
 #nav-img {
     position: absolute;
     z-index: 0;
-    /* width: 97%; */
-    /* height: 95%; */
+    width: 78%;
+    height: auto;
     top: 10px;
-    width: 1000px;
+    left: 81px;
 }
 
 @media only screen and (min-width: 769px)  {
