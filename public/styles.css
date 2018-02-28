@@ -637,3 +637,4 @@ img.slide-img {
     background-image: url('./img/group-resize.png');
      background-size: cover;
 }
+a:hover {text-decoration: none; color: white; }

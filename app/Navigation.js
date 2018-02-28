@@ -40,6 +40,12 @@ export default class Navigation extends Component {
           <NavItem className="nav-item" eventKey={3} href="#icons">
             <div className="nav-item">Contact</div>
           </NavItem>
+          <NavItem className="nav-item" eventKey={3} href="#icons">
+             <a  className="nav-item" href="resume.pdf" target="_blank">
+             Resume</a>
+          </NavItem>
+
+
         </Nav>
       </Navbar.Collapse>
     </Navbar>)
