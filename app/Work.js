@@ -64,7 +64,7 @@ export const Work = () => {
       <div className="wrapper-flex-row">
         <div className="work-felx-col">
           <div id="work-title">BookApp</div>
-          <div id="work-text">Book recommedation mobile app. Allows the user to search for book recommendations based on similar titles or books by the same author. Saves books by swiping the deck right or removes the books by swiping left. Allows the user to mark a saved books as 'read' and to delete saved books by clicking  delete button.</div>
+          <div id="work-text">Book recommedation mobile app. Allows the user to search for book recommendations based on similar titles or books by the same author. Saves books by swiping the deck right or removes the books by swiping left. Allows the user to mark saved books as 'read' and to delete saved books by clicking a delete button.</div>
           <div id="work-text">Used React Native, React Native Router Flux, Firebase, React/Redux, Axios, TastediveApi, GoogleBooks Api </div>
           <div className="buttons">
             <div className="see-button see-button-first"><a
@@ -73,7 +73,7 @@ export const Work = () => {
         </div>
         <div className="individual-slides3">
           <Slideshow header={"Mercury"} subHeader={"Personal Budget App"}
-            description={"Allows users(logged in and logged out) to choose product items and add them to cart edit(update, remove) cart items post product reviews view/delete/update reviews view orders Allows admin to view and update product information view all orders view all users change users from user to admin"}
+            description={"Allows users to choose product items and add them to cart, edit(update, remove) cart items, post product reviews, view/delete/update reviews, view orders. Allows admin to view and update product information, view all orders, view all users"}
             img={["imagesbookApp"]} />
         </div>
       </div>

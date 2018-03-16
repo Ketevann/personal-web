@@ -21,4 +21,7 @@ app.use('/', express.static(path.join(__dirname, '../public')))
 
 setInterval(function() {
     http.get("http://www.kbarateli.com.herokudns.com");
+    http.get("http://www.kbarateli.com");
+    http.get("https://tea-cup.herokuapp.com");
+    http.get("https://app-mercury.herokuapp.com");
 }, 300000);
