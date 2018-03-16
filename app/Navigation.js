@@ -41,7 +41,7 @@ export default class Navigation extends Component {
             <div className="nav-item">Contact</div>
           </NavItem>
           <NavItem className="nav-item" eventKey={3} href="#icons">
-             <a  className="nav-item" href="resume.pdf" target="_blank">
+             <a  className="nav-item" href="Ketti-Barateli-resume.pdf" target="_blank">
              Resume</a>
           </NavItem>
 
